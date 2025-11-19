@@ -6,25 +6,25 @@ Write a Java program to reverse a number using a while loop. For example, if the
 To write a Java program using a while loop to reverse a given integer number.
 
 ## ALGORITHM :
-1.Start the program.
+1. Start the program.
 
-2.Import the java.util.* package.
+2. Import the java.util.* package.
 
-3.Create a Scanner object to read the number from the user.
+3. Create a Scanner object to read the number from the user.
 
-4.Initialize a variable rev = 0 to store the reversed number.
+4. Initialize a variable rev = 0 to store the reversed number.
 
-5.Use a while loop that continues until the number becomes 0.
+5. Use a while loop that continues until the number becomes 0.
 
-6.Extract the last digit using num % 10.
+6. Extract the last digit using num % 10.
 
-7.Update reversed number using rev = rev * 10 + digit.
+7. Update reversed number using rev = rev * 10 + digit.
 
-8.Remove the last digit using num = num / 10.
+8. Remove the last digit using num = num / 10.
 
-9.After the loop ends, print the reversed number.
+9. After the loop ends, print the reversed number.
 
-10.End the program.
+10. End the program.
 
 ## PROGRAM:
  ```
@@ -62,6 +62,7 @@ public class ReverseNumber {
 
 ## RESULT:
 Thus, the Java program using a while loop to reverse a number was successfully written, executed, and verified.
+
 
 
 
