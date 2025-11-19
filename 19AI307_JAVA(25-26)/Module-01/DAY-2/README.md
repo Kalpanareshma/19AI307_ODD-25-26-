@@ -17,23 +17,23 @@ Write a Java program to simulate this elevator logic for a given floor number.
 To write a Java program using conditional statements to determine the elevator message based on the floor number.
 
 ## ALGORITHM :
-1.Start the program.
+1. Start the program.
 
-2.Import the java.util.* package.
+2. Import the java.util.* package.
 
-3.Create a Scanner object to read the floor number.
+3. Create a Scanner object to read the floor number.
 
-4.Read the floor number as an integer.
+4. Read the floor number as an integer.
 
-5.Check if the number is divisible by both 3 and 5: print "Skipped".
+5. Check if the number is divisible by both 3 and 5: print "Skipped".
 
-6.Else if divisible by 3 only: print "Beware!".
+6. Else if divisible by 3 only: print "Beware!".
 
-7.Else if divisible by 5 only: print "Blessings!".
+7. Else if divisible by 5 only: print "Blessings!".
 
-8.Otherwise print "Floor {number}".
+8. Otherwise print "Floor {number}".
 
-9.End the program.
+9. End the program.
 ## PROGRAM:
  ```
 /*
@@ -72,6 +72,7 @@ public class MagicalElevator {
 
 ## RESULT:
 Thus, the Java program to simulate the magical elevator logic using conditional statements was successfully executed.
+
 
 
 
