@@ -83,6 +83,7 @@ public class Main {
 
 
 ## RESULT:
-Thus, the Java program demonstrating variables, data types, operators, and print statements was successfully executed.
+The program demonstrates manual use of ++ and -- (pre-increment and pre-decrement) to update and display Lovely's power level step-by-step without any loops.
+
 
 
