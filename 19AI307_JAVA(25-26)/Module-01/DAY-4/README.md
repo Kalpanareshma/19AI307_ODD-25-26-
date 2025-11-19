@@ -7,20 +7,20 @@ Write a Java program to find the sum of even and odd elements in an array.
 To write a Java program that reads an array of integers and calculates the sum of even elements and the sum of odd elements separately.
 
 ## ALGORITHM :
-1.Start the program and read the size of the array n.
+1. Start the program and read the size of the array n.
 
-2.Read n integer elements into the array a[].
+2. Read n integer elements into the array a[].
 
-3.Initialize two variables:
+3. Initialize two variables:
          
-         evenSum = 0
+         ### evenSum = 0
          
-         oddSum = 0
+         ### oddSum = 0
 4.Traverse the array from index 0 to n-1:
 
-         If a[i] is even, add it to evenSum.
+         ### If a[i] is even, add it to evenSum.
      
-         Otherwise, add it to oddSum.
+         ### Otherwise, add it to oddSum.
          
 5.Print the sum of even elements.
 
@@ -68,6 +68,7 @@ public class SumEvenOdd {
 
 ## RESULT:
 Thus, the Java program successfully calculates the sum of even and odd elements in an array.
+
 
 
 
