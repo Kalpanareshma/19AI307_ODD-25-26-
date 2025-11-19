@@ -1,26 +1,31 @@
 # Ex.No:1(D) ARRAYS
 
 ## QUESTION:
-Write a Java program to find the index of a given element in an array
+Write a Java program to find the sum of even and odd elements in an array.
 
 ## AIM:
-To write a Java program that reads an array of integers and finds the index of a given element within the array.
+To write a Java program that reads an array of integers and calculates the sum of even elements and the sum of odd elements separately.
 
 ## ALGORITHM :
 1.Start the program and read the size of the array n.
 
-2.Read n integer elements and store them in the array a[ ].
+2.Read n integer elements into the array a[].
 
-3.Read the element x whose index needs to be found.
-
+3.Initialize two variables:
+         evenSum = 0
+         
+         oddSum = 0
 4.Traverse the array from index 0 to n-1:
 
-     If a[i] == x, print the index i and terminate the program.
+         If a[i] is even, add it to evenSum.
+     
+         Otherwise, add it to oddSum.
+         
+5.Print the sum of even elements.
 
-5.If the loop finishes without a match, print "Element not found".
+6.Print the sum of odd elements.
 
-6.End the program.	
-
+7.End the program.
 ## PROGRAM:
  ```
 /*
@@ -33,36 +38,35 @@ Register Number:212222040069
 ## SOURCE CODE:
 ```
 import java.util.Scanner;
-
-public class Main {
+public class SumEvenOdd {
     public static void main(String[] args) {
         Scanner sc = new Scanner(System.in);
         int n = sc.nextInt();
-        int a[] = new int[n];
-        for (int i = 0; i < n; i++) 
-        {
-        a[i] = sc.nextInt();
-        }
-        
-        int x = sc.nextInt();
+        int[] arr = new int[n];
         for (int i = 0; i < n; i++) {
-            if (a[i] == x) {
-                System.out.println(i);
-                return;
-            }
-            
+            arr[i] = sc.nextInt();
         }
-        System.out.println("Element not found");
-        
+        int sumEven = 0, sumOdd = 0;
+        for (int i = 0; i < n; i++) {
+            if (arr[i] % 2 == 0) {
+                sumEven += arr[i];
+            } else {
+                sumOdd += arr[i];
+            }
+        }
+        System.out.println("Sum of even elements: " + sumEven);
+        System.out.println("Sum of odd elements: " + sumOdd);
+        sc.close();
     }
 }
 ```
 
 ## OUTPUT:
-<img width="558" height="590" alt="image" src="https://github.com/user-attachments/assets/0d53717f-affe-4aaf-b448-35ef728bee48" />
+<img width="666" height="481" alt="Screenshot 2025-11-19 at 6 39 38 PM" src="https://github.com/user-attachments/assets/ffb77632-b5e7-4be8-aeca-18f1018a00f5" />
+
 
 ## RESULT:
-Therefore the program successfully searches the array for the given element.
+Thus, the Java program successfully calculates the sum of even and odd elements in an array.
 
 
 
