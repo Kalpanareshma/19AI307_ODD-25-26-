@@ -12,6 +12,7 @@ To write a Java program that reads an array of integers and calculates the sum o
 2.Read n integer elements into the array a[].
 
 3.Initialize two variables:
+         
          evenSum = 0
          
          oddSum = 0
@@ -67,6 +68,7 @@ public class SumEvenOdd {
 
 ## RESULT:
 Thus, the Java program successfully calculates the sum of even and odd elements in an array.
+
 
 
 
