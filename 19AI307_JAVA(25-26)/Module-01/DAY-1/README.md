@@ -22,27 +22,27 @@ Finally prints her final power level.
 To write a Java program that demonstrates manual pre-increment (++) and pre-decrement (--) operations and prints the power after each step.
 
 ## ALGORITHM :
-1.Start the program.
+1. Start the program.
 
-2.Import Scanner.
+2. Import Scanner.
 
-3.Read an integer input — the initial power.
+3. Read an integer input — the initial power.
 
-4.Print the initial power.
+4. Print the initial power.
 
-5.Apply the first bonus: ++power and print.
+5. Apply the first bonus: ++power and print.
 
-6.Apply the second bonus: ++power and print.
+6. Apply the second bonus: ++power and print.
 
-7.Apply the third bonus: ++power and print.
+7. Apply the third bonus: ++power and print.
 
-8.Apply the first trap: --power and print.
+8. Apply the first trap: --power and print.
 
-9.Apply the second trap: --power and print.
+9. Apply the second trap: --power and print.
 
-10.Print the final power.
+10. Print the final power.
 
-11.End the program.
+11. End the program.
 
 ## PROGRAM:
  ```
@@ -84,6 +84,7 @@ public class Main {
 
 ## RESULT:
 The program demonstrates manual use of ++ and -- (pre-increment and pre-decrement) to update and display Lovely's power level step-by-step without any loops.
+
 
 
 
