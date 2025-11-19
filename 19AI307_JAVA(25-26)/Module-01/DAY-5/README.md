@@ -17,11 +17,12 @@ To write a Java program that reads a string from the user and counts the total n
 5. Initialize a counter for vowels.
 
 6. Traverse each character of the string:
-     •If the character is ‘a’, ‘e’, ‘i’, ‘o’, or ‘u’, increment the vowel count.
 
-7. Print the total number of vowels.
+   •If the character is ‘a’, ‘e’, ‘i’, ‘o’, or ‘u’, increment the vowel count.
 
-8. End the program.
+8. Print the total number of vowels.
+
+9. End the program.
 
 ## PROGRAM:
  ```
@@ -60,6 +61,7 @@ public class VowelCount {
 
 ## RESULT:
 Thus, the Java program to count the number of vowels in a string was successfully written, executed, and verified.
+
 
 
 
