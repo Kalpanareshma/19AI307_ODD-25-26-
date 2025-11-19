@@ -17,17 +17,17 @@ To write a Java program that reads an array of integers and calculates the sum o
 
    • oddSum = 0
 
-4.Traverse the array from index 0 to n-1:
+4. Traverse the array from index 0 to n-1:
 
-     • If a[i] is even, add it to evenSum.
+   • If a[i] is even, add it to evenSum.
      
-     • Otherwise, add it to oddSum.
+   • Otherwise, add it to oddSum.
          
-5.Print the sum of even elements.
+5. Print the sum of even elements.
 
-6.Print the sum of odd elements.
+6. Print the sum of odd elements.
 
-7.End the program.
+7. End the program.
 ## PROGRAM:
  ```
 /*
@@ -69,6 +69,7 @@ public class SumEvenOdd {
 
 ## RESULT:
 Thus, the Java program successfully calculates the sum of even and odd elements in an array.
+
 
 
 
