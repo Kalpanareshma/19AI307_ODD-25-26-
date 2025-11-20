@@ -52,7 +52,7 @@ To implement the Singleton Design Pattern in Java to maintain a centralized logg
 /*
 Program to implement a SOLID Principles in Java Program
 Developed by: KALPANA S
-Register Number:212222040069
+Register Number: 212222040069
 */
 ```
 
@@ -114,4 +114,5 @@ public class MicroserviceLogger {
 
 ## RESULT:
 Thus, a centralized logging system using the Singleton Design Pattern was successfully implemented in Java, and logs were maintained and displayed in sequential order.
+
 
