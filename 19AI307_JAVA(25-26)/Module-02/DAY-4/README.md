@@ -38,7 +38,7 @@ To write a Java program that demonstrates the use of a private constructor and a
 /*
 Program to implement a Variable scope and Constructor using Java
 Developed by: KALPANA S
-Register Number:212222040069
+Register Number: 212222040069
 */
 ```
 
@@ -84,4 +84,5 @@ class prog{
 
 ## RESULT:
 Thus, the Java program using a private constructor and static factory method was executed successfully.
+
 
