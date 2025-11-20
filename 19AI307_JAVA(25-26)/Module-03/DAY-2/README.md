@@ -10,33 +10,30 @@ With bonus: net = base + bonus
 
 The program should use method overloading to implement both versions.
 ## AIM:
-To implement method overloading in Java by defining multiple area() methods with different parameter lists to compute areas of square, rectangle, and circle.
+To write a Java program that calculates an employee’s net salary using method overloading, based on whether a bonus is provided or not.
 
 ## ALGORITHM :
 1. Start the program.
 
-2. Create a class AreaCalculator.
+2. Create a class Salary containing two overloaded methods:
 
-3. Overload the method area() as:
+   - calculate(double base) → compute base + 20% of base.
 
-     - area(int side) returns area of a square.
+   - calculate(double base, double bonus) → compute base + bonus.
 
-     - area(int length, int breadth) returns area of a rectangle.
+3. In the main method:
 
-     - area(double radius) returns area of a circle.
+   - Read the base salary from the user.
 
-4. In the main method:
+   - Ask whether the employee has received a bonus.
 
-     - Read side, length, breadth, and radius from the user.
+   - If yes, read the bonus and call the overloaded method with two parameters.
 
-     - Call each overloaded method.
+   - If no, call the overloaded method with only the base salary.
 
-     - Display the results.
+4. Display the net salary based on the selected calculation method.
 
-5. Stop the program.
-
-
-
+5. End the program.
 
 ## PROGRAM:
  ```
@@ -51,33 +48,30 @@ Register Number:212222040069
 ```
 import java.util.Scanner;
 
-public class AreaCalculator {
+public class Salary {
 
-    void area(int side) {
-        System.out.println("Area of square: " + (side * side));
+    void calculate(double base) {
+        double netSalary = base + (0.20 * base);
+        System.out.println("Net Salary (20% allowance): ₹" + netSalary);
     }
 
-    void area(int length, int breadth) {
-        System.out.println("Area of rectangle: " + (length * breadth));
-    }
-
-    void area(double radius) {
-        System.out.println("Area of circle: " + (Math.PI * radius * radius));
+    void calculate(double base, double bonus) {
+        double netSalary = base + bonus;
+        System.out.println("Net Salary with bonus: ₹" + netSalary);
     }
 
     public static void main(String[] args) {
         Scanner sc = new Scanner(System.in);
-        AreaCalculator a = new AreaCalculator();
-
-        int side = sc.nextInt();
-        a.area(side);
-
-        int length = sc.nextInt();
-        int breadth = sc.nextInt();
-        a.area(length, breadth);
-
-        double radius = sc.nextDouble();
-        a.area(radius);
+        Salary s = new Salary();
+        double base = sc.nextDouble();
+        sc.nextLine();
+        String choice = sc.nextLine();
+        if (choice.trim().equalsIgnoreCase("yes")) {
+            double bonus = sc.nextDouble();
+            s.calculate(base, bonus);
+        } else {
+            s.calculate(base);
+        }
     }
 }
 ```
@@ -86,14 +80,14 @@ public class AreaCalculator {
 
 
 
-
 ## OUTPUT:
-<img width="714" height="412" alt="Screenshot 2025-11-20 at 10 29 00 AM" src="https://github.com/user-attachments/assets/c34b8b58-3a03-4638-9381-1c39196e6ebb" />
+<img width="718" height="394" alt="Screenshot 2025-11-20 at 11 04 05 AM" src="https://github.com/user-attachments/assets/b82d9cca-9fb4-4d6c-b59f-c7b92e0a415f" />
+
 
 
 
 ## RESULT:
-Thus, the Java program using method overloading to calculate areas of square, rectangle, and circle was executed successfully.
+Thus, the program to calculate employee salary using method overloading was successfully executed and verified.
 
 
 
