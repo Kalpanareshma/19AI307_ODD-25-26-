@@ -49,7 +49,7 @@ To write a Java program that demonstrates manual pre-increment (++) and pre-decr
 /*
 Program to implement variables and Operators using Java
 Developed by: KALPANA S
-Register Number:212222040069
+Register Number: 212222040069
 */
 ```
 
@@ -84,6 +84,7 @@ public class Main {
 
 ## RESULT:
 The program demonstrates manual use of ++ and -- (pre-increment and pre-decrement) to update and display Lovely's power level step-by-step without any loops.
+
 
 
 
