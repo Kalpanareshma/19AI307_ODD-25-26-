@@ -2,13 +2,14 @@
 
 ## QUESTION:
 Write a Java program that calculates the area of different shapes using method overloading.
+
 Create a class AreaCalculator with the following methods:
 
-    -area(int side) → area of a square
+    - area(int side) → area of a square
 
-    -area(int length, int breadth) → area of a rectangle
+    - area(int length, int breadth) → area of a rectangle
 
-    -area(double radius) → area of a circle
+    - area(double radius) → area of a circle
 
 
 ## AIM:
@@ -96,4 +97,5 @@ public class AreaCalculator {
 
 ## RESULT:
 Thus, the Java program using method overloading to calculate areas of square, rectangle, and circle was executed successfully.
+
 
