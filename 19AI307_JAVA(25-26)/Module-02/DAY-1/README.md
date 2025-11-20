@@ -23,7 +23,7 @@ To define a class Car with attributes brand, color, and year; create two objects
 
 6. Call printDetails() for car2 to display its information.
 
-7.Close the scanner and end the program.
+7. Close the scanner and end the program.
 
 
 ## PROGRAM:
@@ -83,6 +83,7 @@ class prog {
 
 ## RESULT:
 Therefore,the program successfully creates two Car objects and assigns values to their attributes.
+
 
 
 
