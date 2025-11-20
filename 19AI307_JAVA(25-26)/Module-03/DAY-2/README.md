@@ -1,13 +1,14 @@
 # Ex.No:3(b) POLYMORPHISM
 
 ## QUESTION:
-Write a Java program that calculates the area of different shapes using method overloading. 
-Create a class AreaCalculator with:
-     
-     • area(int side) for square
-     • area(int length, int breadth) for rectangle
-     • area(double radius) for circle
+Write a Java program that calculates the net salary of an employee using method overloading.
+Two ways to compute the salary:
 
+Without bonus: net = base + 20% of base
+
+With bonus: net = base + bonus
+
+The program should use method overloading to implement both versions.
 ## AIM:
 To implement method overloading in Java by defining multiple area() methods with different parameter lists to compute areas of square, rectangle, and circle.
 
@@ -93,6 +94,7 @@ public class AreaCalculator {
 
 ## RESULT:
 Thus, the Java program using method overloading to calculate areas of square, rectangle, and circle was executed successfully.
+
 
 
 
