@@ -53,7 +53,7 @@ To implement inheritance in Java using a base class Fuel and subclasses Petrol a
 /*
 Program to implement a Inheritance and Aggregation using Java
 Developed by: KALPANA S
-Register Number:212222040069
+Register Number: 212222040069
 */
 ```
 
@@ -185,5 +185,6 @@ public class FuelStation {
 
 ## RESULT:
 The program successfully demonstrates inheritance, method overriding, and discount calculation for Petrol and Diesel purchases for exactly three records.
+
 
 
