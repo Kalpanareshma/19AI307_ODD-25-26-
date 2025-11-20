@@ -46,7 +46,7 @@ Implement finalScore():
 /*
 Program to implement a Abstraction using Java
 Developed by: KALPANA S
-Register Number:212222040069
+Register Number: 212222040069
 */
 ```
 
@@ -119,3 +119,4 @@ public class Main {
 
 ## RESULT:
 Thus, the program to implement abstraction using Java for calculating game scores was successfully executed.
+
