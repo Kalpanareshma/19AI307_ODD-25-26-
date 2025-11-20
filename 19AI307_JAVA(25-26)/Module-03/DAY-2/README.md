@@ -40,7 +40,7 @@ To write a Java program that calculates an employee’s net salary using method 
 /*
 Program to implement a Polymorphism using Java
 Developed by: KALPANA S
-Register Number:212222040069
+Register Number: 212222040069
 */
 ```
 
@@ -88,6 +88,7 @@ public class Salary {
 
 ## RESULT:
 Thus, the program to calculate employee salary using method overloading was successfully executed and verified.
+
 
 
 
