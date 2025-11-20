@@ -2,8 +2,11 @@
 
 ## QUESTION:
 Design a microservices-based system where multiple services (AuthService, UserService, OrderService, etc.) must log system events using a centralized Singleton Logger. Every service logs messages in the format:
+
 "[Service] [LEVEL]: message"
+
 Log levels: INFO, WARNING, ERROR
+
 After each log entry, print the entire log history.
 
 ## AIM:
@@ -111,3 +114,4 @@ public class MicroserviceLogger {
 
 ## RESULT:
 Thus, a centralized logging system using the Singleton Design Pattern was successfully implemented in Java, and logs were maintained and displayed in sequential order.
+
