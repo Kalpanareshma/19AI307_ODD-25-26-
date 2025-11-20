@@ -39,7 +39,7 @@ To write a Java program using conditional statements to determine the elevator m
 /*
 Program to implement a conditional statement using Java
 Developed by: KALPANA S
-Register Number:212222040069
+Register Number: 212222040069
 */
 ```
 
@@ -72,6 +72,7 @@ public class MagicalElevator {
 
 ## RESULT:
 Thus, the Java program to simulate the magical elevator logic using conditional statements was successfully executed.
+
 
 
 
