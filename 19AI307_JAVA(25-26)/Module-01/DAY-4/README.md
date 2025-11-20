@@ -33,7 +33,7 @@ To write a Java program that reads an array of integers and calculates the sum o
 /*
 Program to implement a Array concept using Java
 Developed by: KALPANA S
-Register Number:212222040069
+Register Number: 212222040069
 */
 ```
 
@@ -69,6 +69,7 @@ public class SumEvenOdd {
 
 ## RESULT:
 Thus, the Java program successfully calculates the sum of even and odd elements in an array.
+
 
 
 
