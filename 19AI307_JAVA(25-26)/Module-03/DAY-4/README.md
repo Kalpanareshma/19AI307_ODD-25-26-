@@ -45,7 +45,7 @@ To write a Java program that implements an interface to evaluate fight results u
 /*
 Program to implement a Interface using Java
 Developed by: KALPANA S
-Register Number:212222040069
+Register Number: 212222040069
 */
 ```
 
@@ -112,3 +112,4 @@ public class Main {
 
 ## RESULT:
 Thus, the program to implement a Judge scoring system using Interface in Java was executed successfully.
+
