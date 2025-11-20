@@ -39,7 +39,7 @@ To write a Java program that demonstrates encapsulation by using private variabl
 /*
 Program to implement a Access Specifiers using Java
 Developed by: KALPANA S
-Register Number:212222040069
+Register Number: 212222040069
 */
 ```
 
@@ -88,3 +88,4 @@ public class Main{
 
 ## RESULT:
 Thus, the program to implement encapsulation using private variables and public getter/setter methods in Java was executed successfully.
+
