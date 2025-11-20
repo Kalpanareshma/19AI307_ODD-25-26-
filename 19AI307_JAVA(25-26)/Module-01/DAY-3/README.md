@@ -31,7 +31,7 @@ To write a Java program using a while loop to reverse a given integer number.
 /*
 Program to implement a Looping Statement using Java
 Developed by: KALPANA S
-Register Number:212222040069
+Register Number: 212222040069
 */
 ```
 
@@ -62,6 +62,7 @@ public class ReverseNumber {
 
 ## RESULT:
 Thus, the Java program using a while loop to reverse a number was successfully written, executed, and verified.
+
 
 
 
