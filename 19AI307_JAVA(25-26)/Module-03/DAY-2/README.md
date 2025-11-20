@@ -7,8 +7,6 @@ Write a Java program that calculates the area of different shapes using method o
      • area(int length, int breadth) for rectangle
      • area(double radius) for circle
 
-For
-
 ## AIM:
 To implement method overloading in Java by defining multiple area() methods with different parameter lists to compute areas of square, rectangle, and circle.
 
@@ -94,6 +92,7 @@ public class AreaCalculator {
 
 ## RESULT:
 Thus, the Java program using method overloading to calculate areas of square, rectangle, and circle was executed successfully.
+
 
 
 
