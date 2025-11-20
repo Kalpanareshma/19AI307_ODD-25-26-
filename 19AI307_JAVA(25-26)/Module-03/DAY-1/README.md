@@ -178,10 +178,12 @@ public class FuelStation {
 
 
 ## OUTPUT:
-![Screenshot 2025-11-20 at 10 12 18 AM](https://github.com/user-attachments/assets/13f26374-d0c5-4465-96f2-29c415e844dc)
+<img width="723" height="640" alt="Screenshot 2025-11-20 at 10 13 59 AM" src="https://github.com/user-attachments/assets/fd2d462f-f708-4244-8f9a-3d073a034af0" />
+
 
 
 
 ## RESULT:
 The program successfully demonstrates inheritance, method overriding, and discount calculation for Petrol and Diesel purchases for exactly three records.
+
 
