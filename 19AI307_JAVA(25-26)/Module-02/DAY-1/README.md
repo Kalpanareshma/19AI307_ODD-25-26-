@@ -8,10 +8,11 @@ To define a class Car with attributes brand, color, and year; create two objects
 ## ALGORITHM :
 1. Define a class Car with three data members:
 
-     String brand
-     String color
-     int year
- and a method printDetails() to display these values.
+     - String brand
+       
+     - String color
+       
+     - int year and a method printDetails() to display these values.
 
 2. In the main() method, create a Scanner object to read user inputs.
 
@@ -31,7 +32,7 @@ To define a class Car with attributes brand, color, and year; create two objects
 /*
 Program to implement a Class and Objects using Java
 Developed by: KALPANA S
-Register Number:212222040069
+Register Number: 212222040069
 */
 ```
 
@@ -83,6 +84,7 @@ class prog {
 
 ## RESULT:
 Therefore,the program successfully creates two Car objects and assigns values to their attributes.
+
 
 
 
