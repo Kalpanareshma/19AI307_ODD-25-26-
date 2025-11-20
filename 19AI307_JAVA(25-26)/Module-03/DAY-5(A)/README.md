@@ -33,7 +33,7 @@ To implement a Java program that uses an Inner Class to determine whether a numb
 /*
 Program to implement a InnerClass using Java
 Developed by: KALPANA S
-Register Number:212222040069
+Register Number: 212222040069
 */
 ```
 
@@ -77,3 +77,4 @@ public class Main {
 
 ## RESULT:
 Thus, the program to implement an Inner Class in Java and check for an Armstrong number was executed successfully.
+
