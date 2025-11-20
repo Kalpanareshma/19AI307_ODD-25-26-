@@ -28,7 +28,7 @@ To write a Java program that uses the Double wrapper class and Math.sqrt() to co
 /*
 Program to implement a Wrapper Class using Java
 Developed by: KALPANA S
-Register Number:212222040069  
+Register Number: 212222040069  
 */
 ```
 
@@ -58,3 +58,4 @@ public class Main {
 
 ## RESULT:
 Thus, the program to compute the square root of a number using the Double wrapper class was executed successfully.
+
